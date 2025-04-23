@@ -22,6 +22,7 @@ import {
   ropa,
   veterinaria,
   firebase,
+  rpmr,
 } from "../assets";
 
 export const navLinks = [
@@ -115,17 +116,34 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Asistente Programador",
+    company_name: "Registro de la Propiedad y Mercantil Rumiñahui",
+    icon: rpmr,
+    iconBg: "#383E56",
+    date: "Abril 2025 - Actualmente",
+    points: [
+  "Colaboración en el desarrollo de aplicaciones empresariales utilizando Java EE bajo arquitectura EAR.",
+  "Apoyo en la administración y despliegue de aplicaciones en servidores WildFly.",
+  "Gestión y mantenimiento de bases de datos SQL Server, incluyendo creación de procedimientos almacenados y consultas optimizadas.",
+  "Asistencia en la implementación de servicios web (REST y SOAP) para la integración de sistemas.",
+  "Documentación técnica y soporte en pruebas funcionales y corrección de errores en entornos de desarrollo y producción.",
+],
+
+  },
+  {
     title: "Desarrollador Móvil y Web",
     company_name: "Softec Microsystems",
     icon: softec,
     iconBg: "#383E56",
-    date: "Enero 2024 - Actualmente",
+    date: "Enero 2024 - Marzo 2025",
     points: [
-      "Desarrollo del sitio web para la gestión de citas medicas e historias clínicas",
-      "Implementacion de ",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+  "Desarrollo del sistema web para la gestión integral de citas médicas e historias clínicas utilizando Laravel y MySQL.",
+  "Implementación de autenticación de usuarios, roles y permisos para personal médico, administrativo y pacientes.",
+  "Diseño e implementación de interfaces responsivas, asegurando compatibilidad entre navegadores.",
+  "Integración de notificaciones por correo electrónico para confirmación y recordatorio de citas.",
+  "Participación activa en revisiones de código, optimización de consultas y buenas prácticas de desarrollo.",
+],
+
   },
   {
     title: "React.js Developer",

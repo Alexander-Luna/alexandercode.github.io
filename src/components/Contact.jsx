@@ -37,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Alexander Luna",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "paulluna99@gmail.pro",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -58,7 +58,6 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
           alert("Ohh, algo salió mal. Por favor, inténtelo de nuevo.");
         }
       );

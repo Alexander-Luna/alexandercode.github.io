@@ -29,7 +29,7 @@ import avesjoyas from "./company/avesjoyas.png";
 import controldeudas from "./controldeudas.png";
 import ropa from "./ropa.png";
 import veterinaria from "./veterinaria.png";
-
+import rpmr from "./rpmr.jpg";
 export {
   logo,
   backend,
@@ -57,6 +57,7 @@ export {
   mundomascotas,
   avesjoyas,
   controldeudas,
+  rpmr,
   ropa,
   veterinaria,
 };

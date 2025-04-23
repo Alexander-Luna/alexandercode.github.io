@@ -46,10 +46,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        ¡Hola! Soy un ingeniero de software con soluciones innovadoras. Siempre
-        estoy aprendiendo nuevas tecnologías, me adapto rápidamente a diferentes
-        sistemas operativos y tengo experiencia en el despliegue de proyectos.
-        ¡Gracias por visitarme!
+        ¡Hola! Soy ingeniero de software con conocimientos en JAVA, JS, PHP, SQL y demás procesos de ingeniería. Creador de soluciones robustas y escalables que mejoran procesos, impulsan negocios y transforman ideas en productos reales.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

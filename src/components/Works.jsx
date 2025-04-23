@@ -79,12 +79,12 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Los siguientes proyectos muestran mis habilidades y experiencia a
-          través de ejemplos reales de mi trabajo. Cada proyecto se describe
-          brevemente con con enlaces a repositorios de código y demostraciones
-          en vivo. Refleja mi capacidad para resolver problemas complejos,
-          trabajar con diferentes tecnologías y gestionar proyectos con
-          eficacia.
+         Estos proyectos representan una muestra concreta de mis habilidades, conocimientos y experiencia en el desarrollo de software. Cada uno incluye una breve descripción, junto con enlaces a los repositorios de código y, cuando es posible, a demostraciones en vivo. Reflejan mi capacidad para:<br/><br/>
+         - Resolver problemas complejos con soluciones eficientes,<br/>
+         - Trabajar con diversas tecnologías y entornos de desarrollo,<br/>
+         - Gestionar proyectos de manera estructurada y eficaz.
+
+
         </motion.p>
       </div>
 
